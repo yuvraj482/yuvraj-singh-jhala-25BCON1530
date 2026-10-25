@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Piyush Jaroli, a Computer Science student specializing in AI and Machine Learning.">
+  <title>Piyush Jaroli | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+
+  <header id="home">
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <h1>PIYUSH JAROLI</h1>
+
+    <p class="tagline">
+      AI & Machine Learning Undergraduate |
+      Building Intelligent Multi-Agent Workflows & Data-Driven Solutions
+    </p>
+
+    <div class="profile-links">
+      <a href="https://github.com/piyushjaroli658-bit"
+         target="_blank" rel="noopener noreferrer">
+        GitHub Profile
+      </a>
+      <a href="#projects">Explore Projects</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+
+      <div class="about-layout">
+        <img
+          class="profile-photo"
+          src="proflie.jpg"
+          alt="Portrait of Piyush Jaroli"
+          width="180"
+          height="180"
+        >
+
+        <p>
+          I am an undergraduate Computer Science student specializing in
+          Artificial Intelligence and Machine Learning. I am interested in
+          Python programming, data-driven solutions, problem-solving, and
+          exploring AI technologies. I enjoy learning through practical
+          projects and continuously improving my technical skills.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+
+      <article class="education-card">
+        <h3>B.Tech — Computer Science and Engineering</h3>
+        <p><strong>Specialization:</strong> Artificial Intelligence and Machine Learning</p>
+        <p><strong>Institution:</strong> JECRC</p>
+        <p>
+          <strong>Academic status:</strong>
+          Undergraduate student
+        </p>
+      </article>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+
+      <ul class="skill-list">
+        <li>C++</li>
+        <li>C</li>
+        <li>Python</li>
+        <li>Agentic AI</li>
+        <li>Data Structures and Algorithms</li>
+      </ul>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      <p>Explore my projects by name or technology.</p>
+
+      <label class="search-label" for="projectSearch">
+        Search projects
+      </label>
+      <input
+        type="search"
+        id="projectSearch"
+        class="project-search"
+        placeholder="Try Python, quiz, or reading list..."
+        autocomplete="off"
+      >
+
+      <div class="filter-controls" aria-label="Filter projects by technology">
+        <button type="button" class="filter-button active"
+                data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="filter-button"
+                data-filter="python" aria-pressed="false">Python</button>
+        <button type="button" class="filter-button"
+                data-filter="web" aria-pressed="false">Web</button>
+        <button type="button" class="filter-button"
+                data-filter="quiz" aria-pressed="false">Quiz</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+
+        <article class="project-card"
+                 data-title="python programs collection factorial fibonacci structure to dictionary"
+                 data-tech="python">
+          <h3>Python Programs Collection</h3>
+          <p>
+            A collection of beginner Python programming exercises covering
+            factorial calculation, the Fibonacci sequence, and structure-to-dictionary conversion.
+          </p>
+          <div class="tech-tags">
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/piyushjaroli658-bit/python-basics-25BCON0667-fibonacci"
+               target="_blank" rel="noopener noreferrer">Fibonacci</a>
+
+            <a href="https://github.com/piyushjaroli658-bit/pyhton-basics-25BCON0667-factorial"
+               target="_blank" rel="noopener noreferrer">Factorial</a>
+
+            <a href="https://github.com/piyushjaroli658-bit/python-basics-25BCON0667-struct-to-dict"
+               target="_blank" rel="noopener noreferrer">Struct to Dict</a>
+          </div>
+        </article>
+
+        <article class="project-card"
+                 data-title="messy python code improvement refactoring"
+                 data-tech="python">
+          <h3>Messy Python Code Improvement</h3>
+          <p>
+            A Python code-improvement exercise focused on making existing
+            code easier to read and understand.
+          </p>
+          <div class="tech-tags">
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/piyushjaroli658-bit/correcting-grade-25BCON0667"
+               target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </article>
+
+        <article class="project-card"
+                 data-title="bug fixing in python debugging cursor ai"
+                 data-tech="python">
+          <h3>Bug Fixing in Python</h3>
+          <p>
+            A project documenting Python bug-fixing work.
+            Review the repository for the specific bugs and solutions.
+          </p>
+          <div class="tech-tags">
+            <span>Python</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/piyushjaroli658-bit/bug-fix"
+               target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </article>
+
+        <article class="project-card"
+                 data-title="interactive quiz application quiz"
+                 data-tech="web quiz">
+          <h3>Interactive Quiz Application</h3>
+          <p>
+            A quiz project. Visit the repository to inspect its questions,
+            interface, and implemented functionality.
+          </p>
+          <div class="tech-tags">
+            <span>Quiz</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/piyushjaroli658-bit/QUIZ"
+               target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </article>
+
+        <article class="project-card"
+                 data-title="book reading list reading list application"
+                 data-tech="web">
+          <h3>Book Reading List</h3>
+          <p>
+            A reading-list project for organizing information about books.
+            Visit the repository for its actual implementation and features.
+          </p>
+          <div class="tech-tags">
+            <span>Reading List</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/piyushjaroli658-bit/reading_list"
+               target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p id="noProjectsMessage" class="no-results" hidden>
+        No projects found. Try another search or filter.
+      </p>
+    </section>
+
+    <section id="weather" aria-labelledby="weather-heading">
+      <h2 id="weather-heading">Weather</h2>
+
+      <label for="cityInput">Enter a city</label>
+      <div class="weather-controls">
+        <input
+          type="text"
+          id="cityInput"
+          placeholder="e.g. Jaipur"
+        >
+        <button type="button" id="weatherButton">Get Weather</button>
+      </div>
+
+      <div id="weatherResult" aria-live="polite">
+        Enter a city to see the weather.
+      </div>
+    </section>
+
+    <section id="aiChatSection" class="ai-chat">
+      <h2>Ask My AI Assistant</h2>
+
+      <p>
+        Ask questions about this portfolio, projects, and technologies.
+      </p>
+
+      <div id="chatMessages" aria-live="polite"></div>
+
+      <div class="chat-controls">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Ask a question..."
+          aria-label="Your question"
+        >
+        <button type="button" id="sendButton">Send</button>
+      </div>
+
+      <p id="chatStatus" role="status"></p>
+
+      <p class="chat-note">
+        Ask about the projects and skills listed on this page.
+      </p>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <p>
+      Email:
+      <a href="mailto:piyushjaroli658@gmail.com">
+        piyushjaroli658@gmail.com
+      </a>
+    </p>
+    <p>
+      GitHub:
+      <a href="https://github.com/piyushjaroli658-bit"
+         target="_blank" rel="noopener noreferrer">
+        github.com/piyushjaroli658-bit
+      </a>
+    </p>
+  </footer>
+
+  <div class="theme-control">
+    <button type="button" id="themeToggle">Switch to Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+  <!-- config.js will be removed in Phase 2 after secure API endpoints are added. -->
+  <script src="chatbot.js"></script>
+</body>
+</html>

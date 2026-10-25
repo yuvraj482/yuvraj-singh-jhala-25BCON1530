@@ -5,7 +5,7 @@ A responsive portfolio website showcasing my profile, skills, projects and profe
 
 ## Live Portfolio
 
-https://portfolio-five-ruby-87.vercel.app/
+https://yuvraj-puce.vercel.app/
 Keep it near the top.
 <img width="1920" height="1080" alt="Screenshot 2026-10-15 100501" src="https://github.com/user-attachments/assets/633a2f70-85e9-4964-aa92-744e5bc5396a" />
 <img width="1920" height="1080" alt="Screenshot 2026-10-15 100455" src="https://github.com/user-attachments/assets/eb72f3f5-e89f-4243-905f-3fa57af5d5f3" />
